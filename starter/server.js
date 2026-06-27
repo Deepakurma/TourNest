@@ -1,9 +1,13 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 import app from './app.js';
 
 // Load environment variables from config.env file
-dotenv.config({ path: './config.env' });
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+dotenv.config({ path: join(__dirname, 'config.env') });
 
 // Set environment to development
 process.env.NODE_ENV = 'development';
