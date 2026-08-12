@@ -45,7 +45,7 @@ const Header = ({ user, onLogout, searchVal, setSearchVal }) => {
       {/* Brand Logo */}
       <div className="header__logo">
         <Link to="/">
-          <img src="/img/logo-white.png" alt="Natours logo" onError={(e) => {
+          <img src="/img/logo-white.png" alt="TourNest logo" onError={(e) => {
             // Fallback in case starter/public/img logo is served/located differently
             e.target.src = 'https://raw.githubusercontent.com/jonasschmedtmann/complete-node-bootcamp/master/4-natours/after-section-12/public/img/logo-white.png';
           }} />

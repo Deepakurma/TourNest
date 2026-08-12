@@ -8,7 +8,7 @@ const Footer = () => {
         <Link to="/">
           <img
             src="/img/logo-green.png"
-            alt="Natours logo"
+            alt="TourNest logo"
             onError={(e) => {
               e.target.src = 'https://raw.githubusercontent.com/jonasschmedtmann/complete-node-bootcamp/master/4-natours/after-section-12/public/img/logo-green.png';
             }}
@@ -23,7 +23,7 @@ const Footer = () => {
         <li><a href="#contact" onClick={(e) => e.preventDefault()}>Contact</a></li>
       </ul>
       <p className="footer__copyright">
-        &copy; {new Date().getFullYear()} Natours. Crafted with premium React design. All rights reserved.
+        &copy; {new Date().getFullYear()} TourNest. Crafted with premium React design. All rights reserved.
       </p>
     </footer>
   );

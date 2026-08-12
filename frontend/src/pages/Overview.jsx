@@ -59,7 +59,7 @@ const Overview = ({ tours = [], searchVal }) => {
       <section className="hero-section">
         <h1 className="hero-title">Explore Wild Nature &amp;<br />Adventurous Outdoors</h1>
         <p className="hero-text">
-          Natours is a premium booking portal for exciting wilderness treks, coastal escapades, and alpine snow expeditions. Live a life filled with adventure.
+          TourNest is a premium booking portal for exciting wilderness treks, coastal escapades, and alpine snow expeditions. Live a life filled with adventure.
         </p>
         <a href="#catalog" className="btn btn--green">Browse Catalog</a>
       </section>
